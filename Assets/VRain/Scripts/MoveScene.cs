@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MoveScene : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject _text;
+
     void Start()
     {
         
@@ -15,8 +18,19 @@ public class MoveScene : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider othe)
+    public void HoverEntered()
     {
-        SceneManager.LoadScene("Main");
+        _text.SetActive(true);
+    }
+
+    public void HoverExited()
+    {
+        _text.SetActive(false);
+    }
+
+    public void Select()
+    {
+        Debug.Log("Selected");
+        SceneManager.LoadScene("Prototype_Main");
     }
 }
