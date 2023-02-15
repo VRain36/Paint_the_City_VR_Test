@@ -5,8 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    public void StartBtn()
+    public void City1()
     {
-        SceneManager.LoadScene("City1");
+        SceneManager.LoadScene("HiromeMarket");
+    }
+
+    public void City2()
+    {
+        SceneManager.LoadScene("EWHACampus");
     }
 }

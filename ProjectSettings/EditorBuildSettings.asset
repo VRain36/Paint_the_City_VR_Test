@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/VRain/Scenes/CityList.unity
     guid: 7b3a498091c8d9d459c31f05b595d717
   - enabled: 1
-    path: Assets/VRain/Scenes/City1.unity
+    path: Assets/VRain/Scenes/HiromeMarket.unity
     guid: 6a65b06852b0d554d979165a5233c75e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cb85c36b33716754aa56b60ad8f64112, type: 2}
